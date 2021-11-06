@@ -2,6 +2,7 @@
 
 `Vagrantfile` for deploying a two-node cluster with a Linux controlplane and a Windows Server 2022 worker node with [Windows HostProcess Containers](https://kubernetes.io/blog/2021/08/16/windows-hostprocess-containers/) enabled. [Calico](https://www.tigera.io/project-calico/) is used for networking. CNI configuration, Calico itself and `kube-proxy` are deployed via [HostProcess pods](https://github.com/kubernetes-sigs/sig-windows-tools/tree/master/hostprocess) to the Windows nodes.
 
+Getting started with Windows HostProcess Containers: https://lippertmarkus.com/2021/11/05/k8s-win22-hostprocess/
 
 ## Prerequisites
 
